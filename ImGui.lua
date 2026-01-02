@@ -115,6 +115,7 @@ ImGuiWindowFlags = {
     Popup                         = 27,
     Modal                         = 28,
     ChildMenu                     = 29,
+    NoDocking                     = 30,
 }
 
 ---@enum ImGuiFocusedFlags
@@ -838,3 +839,4 @@ function ImGuiListClipper:End() end
 ---Call until it returns false. The DisplayStart/DisplayEnd fields will be set and you can process/draw those items.
 ---@return void
 function ImGuiListClipper:Step() end
+
